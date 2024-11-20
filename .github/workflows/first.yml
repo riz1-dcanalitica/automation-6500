@@ -13,6 +13,8 @@ jobs:
               run: env | sort
             - name: Run super-linter
               uses: github/super-linter@v3
+              env:
+                DEFAULT_BRUNCH: main
     job2:
         name: Second Job
         runs-on: windows-latest
