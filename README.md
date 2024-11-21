@@ -8,7 +8,7 @@
         git add .
         git commit -m 'first check in'
 
-- Now add the new repository you created as a remote for the local repo.
+- Now add the new repository you created as a remote for the local repository.
 
         git remote add origin git@github.com:YOUR_GITHUB_USER_NAME_HERE/exercise-files.git
 
@@ -18,5 +18,5 @@
 
 - Browse to the repository on GitHub.com and reload the page to confirm the files have been properly pushed.
 
-Once the files are hosted on GitHub.com, you're ready to start making changes locally and pushing them to the remote repo.
+Once the files are hosted on GitHub.com, you're ready to start making changes locally and pushing them to the remote repository.
 
