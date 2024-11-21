@@ -13,6 +13,7 @@ jobs:
               uses: github/super-linter@v3
               env:
                 DEFAULT_BRUNCH: main
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Step two
               run: env | sort
     job2:
